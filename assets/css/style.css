@@ -35,7 +35,7 @@ body{
     line-height: 28px;
     font-weight: 300;
     font-size: 14px;
-    color:#282828;
+    color: #d0c7c7;
     background-color: #fff;
     -webkit-text-size-adjust: 100%;
     -webkit-overflow-scrolling: touch;
@@ -49,7 +49,7 @@ body, html{
 /* Link style
 ---------------------------------------------------------*/
 a {
-   color: #000000;
+   color: #9e9696;
 }
 a,
 a > * {
@@ -60,7 +60,7 @@ a > * {
 a:focus,
 a:hover {
     outline: none;
-    color: #151515;
+    color: #c5bcbc;
     text-decoration: none;
 }
 
@@ -269,9 +269,16 @@ ul.list-check li::before {
 
 /* === MAIN === */
 .section-padding {
-	padding: 120px 0 100px;
+	padding: 70px 0 100px;
 }
 
+.gallery-padding {
+	padding: 0px 0 100px;
+}
+
+.contact-padding {
+	padding: 100px 0 100px;
+}
 
 /* SECTION TITLE
 ----------------------------------------------------- */
@@ -307,7 +314,7 @@ ul.list-check li::before {
 
 
 #home {
-	background-color: white;
+	background-color: black;
 	-webkit-background-attachment: fixed;
     background-attachment: fixed;
 	background-size: cover;
@@ -342,7 +349,7 @@ ul.list-check li::before {
 	line-height: 60px;
 	margin-bottom: 16px;
     margin-top: 200px;
-	color: black;
+	color: white;
 }
 .intro-border {
     border-style: solid;
@@ -1486,7 +1493,7 @@ Icon for all respective meta
 }
 
 .scroll-up a {
-	background-color: #68c3a3;
+	background-color: #ffbfec;
 	display: block;
 	width: 28px;
 	height: 28px;
@@ -1498,7 +1505,7 @@ Icon for all respective meta
 
 .scroll-up a:hover,
 .scroll-up a:active {
-	background-color: rgba(235, 235, 235, .8);
+	background-color: #d094be;
 	color: #222;
 }
 
@@ -1786,8 +1793,6 @@ Icon for all respective meta
 }
 
 #sidebar li.active {
-    border:0 #a79d9d solid;
-    border-right-width:4px;
 }
 
 @media screen and (min-width: 992px) {
@@ -1880,3 +1885,6 @@ h2 {
     color: white;
     font-size: 20px;
 }
+
+/* INSTAGRAM */
+.instagram_feed{width:100%;max-width:1200px;margin:0 auto;overflow:hidden;}

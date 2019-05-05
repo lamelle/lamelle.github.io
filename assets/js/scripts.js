@@ -248,6 +248,25 @@ jQuery(function ($) {
 
     });
 
+    // INSTAGRAM
+    	(function($){
+    		$(window).on('load', function(){
+    			$.instagramFeed({
+    				'username': 'lamelle_makeup',
+    				'container': "#instagram-feed1",
+    				'display_profile': true,
+    				'display_biography': false,
+    				'display_gallery': true,
+    				'get_raw_json': false,
+    				'callback': null,
+    				'styling': true,
+    				'items': 8,
+    				'items_per_row': 4,
+    				'margin': 1
+    			});
+    		});
+    	})(jQuery);
+
 
     // -------------------------------------------------------------
     // WOW JS
